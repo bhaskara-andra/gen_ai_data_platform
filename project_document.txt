@@ -1,0 +1,14 @@
+Steps of Execution:
+--------------------
+1.Code Conversion (already existed)
+2.Code Generation based on client coding standards and design patterns, framework
+3.Add additional DQ Rules to existing DQ
+4.Testing - Test Cases, test reports
+5.Predictive Insights - Based on the stats generated and captured in ETL framework
+eg: Job Insights, CLuster Insights, Error Metrics and resolution
+6. Visualization/Reports
+
+Research :
+-Any LLMs can be re-trained for out specific needs
+-Closed LLMs, Open LLMs for Banking Client
+-Agents
