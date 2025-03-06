@@ -3,13 +3,14 @@ import google.generativeai as genai
 import os
 import git
 
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 # Gemini API Configuration
 genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
 model = genai.GenerativeModel('gemini-pro')
 
 # Git Configuration (replace with your repo details)
-REPO_PATH = "/path/to/your/git/repo"
-FILE_PATH = "path/to/your/pyspark/script.py"
+REPO_PATH = "E:/edu-files/GitHub-Repo/"
+FILE_PATH = "E:/edu-files/GitHub-Repo/cecl-synapse/"
 
 def read_code(file_path):
     with open(file_path, "r") as f:
